@@ -1,0 +1,12 @@
+﻿//int numberA = new Random().Next(1, 10);
+//Console.Write("Число А = ");
+//Console.WriteLine(numberA);
+//int numberB = new Random().Next(1, 10);
+//Console.Write("Число B = ");
+//Console.WriteLine(numberB);
+int numberA = 5;
+int numberB = 7;
+int maxAB = numberA;
+if(numberA<numberB) maxAB=numberB;
+Console.Write("Максимальное число ");
+Console.WriteLine(maxAB);
