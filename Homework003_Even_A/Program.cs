@@ -1,17 +1,32 @@
-﻿//int numberA = new Random().Next(1, 10);
+﻿// ** Задача 6
+// ** Напишите программу, которая на вход принимает число и выдаёт,
+// ** является ли число чётным (делится ли оно на два без остатка).
+
+// Если мы получаем случайное число:
+
+//int numberA = new Random().Next(1, 10);
 //Console.Write("Число А = ");
 //Console.WriteLine(numberA);
-int numberA = 3
-;
+
+//Если мы вводим число в программе:
+
+//int numberA = 3;
+
+//Если мы вводим число в терминале:
+
+Console.Write("Введите число А = ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+
 if (numberA % 2 == 0)
 {
-    Console.Write("Ура, число ");
-    Console.Write(numberA);
-    Console.Write(" чётное!");
+    Console.Write($"Ура, число {numberA} - чётное! ДА");
+    //Console.Write(numberA);
+    //Console.Write(" чётное!");
 }
 else
 {
-    Console.Write("Увы, число ");
-    Console.Write(numberA);
-    Console.Write(" нечётное!");
+    Console.Write($"Увы, число {numberA} - НЕ чётное! НЕТ");
+//     Console.Write("Увы, число ");
+//     Console.Write(numberA);
+//     Console.Write(" нечётное!");
 }
