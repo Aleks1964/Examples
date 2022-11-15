@@ -20,13 +20,8 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 if (numberA % 2 == 0)
 {
     Console.Write($"Ура, число {numberA} - чётное! ДА");
-    //Console.Write(numberA);
-    //Console.Write(" чётное!");
 }
 else
 {
     Console.Write($"Увы, число {numberA} - НЕ чётное! НЕТ");
-//     Console.Write("Увы, число ");
-//     Console.Write(numberA);
-//     Console.Write(" нечётное!");
 }
