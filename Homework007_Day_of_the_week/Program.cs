@@ -27,7 +27,7 @@
 Console.Write("Введите число, обозначающее день недели = ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
-if(numberA <1 || numberA > 8)
+if(numberA <1 || numberA > 7)
 {
    Console.WriteLine("Вы ввели неверное число дней недели (необходимо ввести число от 1 до 7 включительно).");
 }
