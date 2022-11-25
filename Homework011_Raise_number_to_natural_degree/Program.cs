@@ -3,9 +3,9 @@
 // и возводит число A в натуральную степень B.
 
 Console.Write("Введите число A: ");
-int A = int.Parse(Console.ReadLine());
+int A = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число B (степень в которую будем возводить число А): ");
-int B = int.Parse(Console.ReadLine());
+int B = int.Parse(Console.ReadLine()!);
 
 int Raise(int number1, int number2)
 {
