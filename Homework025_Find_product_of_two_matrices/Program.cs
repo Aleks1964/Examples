@@ -21,7 +21,6 @@
 start:
 Console.Write("Введите количество строк первой матрицы A: ");
 int rowsA = int.Parse(Console.ReadLine()!);
-//Console.WriteLine();
 
 Console.Write("Введите количество столбцов первой матрицы A: ");
 int columnsA = int.Parse(Console.ReadLine()!);
@@ -29,14 +28,12 @@ Console.WriteLine();
 
 Console.Write("Введите количество строк второй матрицы B: ");
 int rowsB = int.Parse(Console.ReadLine()!);
-//Console.WriteLine();
 
 Console.Write("Введите количество столбцов второй матрицы B: ");
 int columnsB = int.Parse(Console.ReadLine()!);
 Console.WriteLine();
 
 if (columnsA != rowsB)
-// if (rowsА != columnsB && columnsА != rowsB)
 {
     Console.WriteLine("Извините, указанные Вами матрицы перемножить НЕВОЗМОЖНО!)");
     Console.WriteLine();
@@ -60,7 +57,6 @@ arrayC = ProductMatrices(arrayA, arrayB);
 
 Console.WriteLine($"Произведение двух матриц А[{rowsA}*{columnsA}] и В[{rowsB}*{columnsB}] = матрица С[{rowsA}*{columnsB}]:");
 PrintArray(arrayC);
-// Console.WriteLine(ProductMatrices(arrayA, arrayB));
 Console.WriteLine();
 
 // ------------------Методы-----------------------
